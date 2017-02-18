@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E211A8C31E588CAA003803E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8C21E588CAA003803E7 /* main.m */; };
+		E211A8C61E588CAA003803E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8C51E588CAA003803E7 /* AppDelegate.m */; };
+		E211A8C91E588CAA003803E7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8C81E588CAA003803E7 /* GameScene.m */; };
+		E211A8CB1E588CAA003803E7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E211A8CA1E588CAA003803E7 /* GameScene.sks */; };
+		E211A8CE1E588CAA003803E7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8CD1E588CAA003803E7 /* GameViewController.m */; };
+		E211A8D11E588CAA003803E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E211A8CF1E588CAA003803E7 /* Main.storyboard */; };
+		E211A8D31E588CAA003803E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E211A8D21E588CAA003803E7 /* Assets.xcassets */; };
+		E211A8D61E588CAA003803E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E211A8D41E588CAA003803E7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E211A8BE1E588CAA003803E7 /* TextureLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E211A8C21E588CAA003803E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E211A8C41E588CAA003803E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E211A8C51E588CAA003803E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E211A8C71E588CAA003803E7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		E211A8C81E588CAA003803E7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		E211A8CA1E588CAA003803E7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E211A8CC1E588CAA003803E7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		E211A8CD1E588CAA003803E7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		E211A8D01E588CAA003803E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E211A8D21E588CAA003803E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E211A8D51E588CAA003803E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E211A8D71E588CAA003803E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E211A8BB1E588CAA003803E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E211A8B51E588CAA003803E7 = {
+			isa = PBXGroup;
+			children = (
+				E211A8C01E588CAA003803E7 /* TextureLoader */,
+				E211A8BF1E588CAA003803E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E211A8BF1E588CAA003803E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E211A8BE1E588CAA003803E7 /* TextureLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E211A8C01E588CAA003803E7 /* TextureLoader */ = {
+			isa = PBXGroup;
+			children = (
+				E211A8C41E588CAA003803E7 /* AppDelegate.h */,
+				E211A8C51E588CAA003803E7 /* AppDelegate.m */,
+				E211A8C71E588CAA003803E7 /* GameScene.h */,
+				E211A8C81E588CAA003803E7 /* GameScene.m */,
+				E211A8CA1E588CAA003803E7 /* GameScene.sks */,
+				E211A8CC1E588CAA003803E7 /* GameViewController.h */,
+				E211A8CD1E588CAA003803E7 /* GameViewController.m */,
+				E211A8CF1E588CAA003803E7 /* Main.storyboard */,
+				E211A8D21E588CAA003803E7 /* Assets.xcassets */,
+				E211A8D41E588CAA003803E7 /* LaunchScreen.storyboard */,
+				E211A8D71E588CAA003803E7 /* Info.plist */,
+				E211A8C11E588CAA003803E7 /* Supporting Files */,
+			);
+			path = TextureLoader;
+			sourceTree = "<group>";
+		};
+		E211A8C11E588CAA003803E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E211A8C21E588CAA003803E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E211A8BD1E588CAA003803E7 /* TextureLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E211A8DA1E588CAA003803E7 /* Build configuration list for PBXNativeTarget "TextureLoader" */;
+			buildPhases = (
+				E211A8BA1E588CAA003803E7 /* Sources */,
+				E211A8BB1E588CAA003803E7 /* Frameworks */,
+				E211A8BC1E588CAA003803E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextureLoader;
+			productName = TextureLoader;
+			productReference = E211A8BE1E588CAA003803E7 /* TextureLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E211A8B61E588CAA003803E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alexey Kushnir";
+				TargetAttributes = {
+					E211A8BD1E588CAA003803E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7ZW5J83TEL;
+					};
+				};
+			};
+			buildConfigurationList = E211A8B91E588CAA003803E7 /* Build configuration list for PBXProject "TextureLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E211A8B51E588CAA003803E7;
+			productRefGroup = E211A8BF1E588CAA003803E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E211A8BD1E588CAA003803E7 /* TextureLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E211A8BC1E588CAA003803E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E211A8CB1E588CAA003803E7 /* GameScene.sks in Resources */,
+				E211A8D61E588CAA003803E7 /* LaunchScreen.storyboard in Resources */,
+				E211A8D31E588CAA003803E7 /* Assets.xcassets in Resources */,
+				E211A8D11E588CAA003803E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E211A8BA1E588CAA003803E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E211A8CE1E588CAA003803E7 /* GameViewController.m in Sources */,
+				E211A8C61E588CAA003803E7 /* AppDelegate.m in Sources */,
+				E211A8C91E588CAA003803E7 /* GameScene.m in Sources */,
+				E211A8C31E588CAA003803E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E211A8CF1E588CAA003803E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E211A8D01E588CAA003803E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E211A8D41E588CAA003803E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E211A8D51E588CAA003803E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E211A8D81E588CAA003803E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E211A8D91E588CAA003803E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E211A8DB1E588CAA003803E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextureLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ua.com.ax.kushnir.TextureLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E211A8DC1E588CAA003803E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextureLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ua.com.ax.kushnir.TextureLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E211A8B91E588CAA003803E7 /* Build configuration list for PBXProject "TextureLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E211A8D81E588CAA003803E7 /* Debug */,
+				E211A8D91E588CAA003803E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E211A8DA1E588CAA003803E7 /* Build configuration list for PBXNativeTarget "TextureLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E211A8DB1E588CAA003803E7 /* Debug */,
+				E211A8DC1E588CAA003803E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E211A8B61E588CAA003803E7 /* Project object */;
+}
