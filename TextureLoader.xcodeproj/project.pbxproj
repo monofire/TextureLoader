@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		E211A8C31E588CAA003803E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8C21E588CAA003803E7 /* main.m */; };
 		E211A8C61E588CAA003803E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8C51E588CAA003803E7 /* AppDelegate.m */; };
-		E211A8C91E588CAA003803E7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8C81E588CAA003803E7 /* GameScene.m */; };
-		E211A8CB1E588CAA003803E7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E211A8CA1E588CAA003803E7 /* GameScene.sks */; };
 		E211A8CE1E588CAA003803E7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8CD1E588CAA003803E7 /* GameViewController.m */; };
 		E211A8D11E588CAA003803E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E211A8CF1E588CAA003803E7 /* Main.storyboard */; };
 		E211A8D31E588CAA003803E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E211A8D21E588CAA003803E7 /* Assets.xcassets */; };
 		E211A8D61E588CAA003803E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E211A8D41E588CAA003803E7 /* LaunchScreen.storyboard */; };
+		E211A8DF1E588E7E003803E7 /* TLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8DE1E588E7E003803E7 /* TLScene.m */; };
+		E211A8E21E588F24003803E7 /* TLLoadDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8E11E588F24003803E7 /* TLLoadDirector.m */; };
+		E211A8EB1E58930C003803E7 /* TLAssetBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8EA1E58930C003803E7 /* TLAssetBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,14 +24,18 @@
 		E211A8C41E588CAA003803E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E211A8C51E588CAA003803E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E211A8C71E588CAA003803E7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		E211A8C81E588CAA003803E7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		E211A8CA1E588CAA003803E7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E211A8CC1E588CAA003803E7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		E211A8CD1E588CAA003803E7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		E211A8D01E588CAA003803E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E211A8D21E588CAA003803E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E211A8D51E588CAA003803E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E211A8D71E588CAA003803E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E211A8DD1E588E7E003803E7 /* TLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLScene.h; sourceTree = "<group>"; };
+		E211A8DE1E588E7E003803E7 /* TLScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLScene.m; sourceTree = "<group>"; };
+		E211A8E01E588F24003803E7 /* TLLoadDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLLoadDirector.h; sourceTree = "<group>"; };
+		E211A8E11E588F24003803E7 /* TLLoadDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLLoadDirector.m; sourceTree = "<group>"; };
+		E211A8E91E58930C003803E7 /* TLAssetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAssetBuilder.h; sourceTree = "<group>"; };
+		E211A8EA1E58930C003803E7 /* TLAssetBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAssetBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +71,12 @@
 				E211A8C41E588CAA003803E7 /* AppDelegate.h */,
 				E211A8C51E588CAA003803E7 /* AppDelegate.m */,
 				E211A8C71E588CAA003803E7 /* GameScene.h */,
-				E211A8C81E588CAA003803E7 /* GameScene.m */,
-				E211A8CA1E588CAA003803E7 /* GameScene.sks */,
+				E211A8DD1E588E7E003803E7 /* TLScene.h */,
+				E211A8DE1E588E7E003803E7 /* TLScene.m */,
+				E211A8E01E588F24003803E7 /* TLLoadDirector.h */,
+				E211A8E11E588F24003803E7 /* TLLoadDirector.m */,
+				E211A8E91E58930C003803E7 /* TLAssetBuilder.h */,
+				E211A8EA1E58930C003803E7 /* TLAssetBuilder.m */,
 				E211A8CC1E588CAA003803E7 /* GameViewController.h */,
 				E211A8CD1E588CAA003803E7 /* GameViewController.m */,
 				E211A8CF1E588CAA003803E7 /* Main.storyboard */,
@@ -145,7 +154,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E211A8CB1E588CAA003803E7 /* GameScene.sks in Resources */,
 				E211A8D61E588CAA003803E7 /* LaunchScreen.storyboard in Resources */,
 				E211A8D31E588CAA003803E7 /* Assets.xcassets in Resources */,
 				E211A8D11E588CAA003803E7 /* Main.storyboard in Resources */,
@@ -159,10 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E211A8DF1E588E7E003803E7 /* TLScene.m in Sources */,
 				E211A8CE1E588CAA003803E7 /* GameViewController.m in Sources */,
+				E211A8EB1E58930C003803E7 /* TLAssetBuilder.m in Sources */,
 				E211A8C61E588CAA003803E7 /* AppDelegate.m in Sources */,
-				E211A8C91E588CAA003803E7 /* GameScene.m in Sources */,
 				E211A8C31E588CAA003803E7 /* main.m in Sources */,
+				E211A8E21E588F24003803E7 /* TLLoadDirector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
