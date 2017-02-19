@@ -27,7 +27,7 @@
 
 -(CGSize) newImageSizeForImage: (UIImage *) image
               screenScaleRatio: (CGFloat) screenScaleRatio
-               scaleVertically: (BOOL) scaleVertically {
+                            of: (ScaleReference) scaleReference {
     
     CGSize initialSize = [self imagePixelSize:image];
     CGSize screenPixelSize = [self screenPixelSize];
@@ -35,7 +35,7 @@
     CGFloat imageAspect = 0.0f;
     CGSize  newImageSize = CGSizeZero;
     
-    if (scaleVertically){
+    if (scaleReference == SCREEN_HEIGHT){
         referentScreenSize = screenPixelSize.height;
         imageAspect = initialSize.width / initialSize.height;
         newImageSize.height = referentScreenSize * screenScaleRatio;
@@ -47,8 +47,6 @@
         newImageSize.width = referentScreenSize * screenScaleRatio;
         newImageSize.height =  newImageSize.width * imageAspect;
     }
-    
-    //        NSLog(@"::: S: x=%.f y=%.f  F=%.1f  Init x=%.f y=%.f r=%.1f Res x=%.f y=%.f r=%.1f", screenPixelSize.width,screenPixelSize.height, screenScaleRatio, initialSize.width, initialSize.height, initialSize.width/initialSize.height, newImageSize.width,newImageSize.height, newImageSize.width/newImageSize.height);
     
     return newImageSize;
 }
@@ -67,7 +65,7 @@
     NSError *directoryScanError = nil;
     NSArray *fileNames = [fileManager contentsOfDirectoryAtPath:path error:&directoryScanError];
     if (directoryScanError)
-        NSLog(@"::: ERROR! directoryScanError");
+        NSLog(@"::: ERROR! directory scan error \n check path");
     
     /* filter filemlist - only .png files */
     NSPredicate *pngFilesPredicate = [NSPredicate predicateWithFormat:@"self ENDSWITH '.png'"];

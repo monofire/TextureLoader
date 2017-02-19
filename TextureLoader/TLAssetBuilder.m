@@ -14,7 +14,7 @@
 #pragma mark - Init
 -(instancetype) initWithBundleFolder: (NSString *) bundleFolderPath
                     screenScaleRatio: (CGFloat) screenScaleRatio
-                     scaleVertically: (BOOL) scaleVertically{
+                                  of: (ScaleReference) scaleReference{
     
     
     /* to be overridden in subclasses */

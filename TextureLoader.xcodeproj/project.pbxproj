@@ -19,6 +19,9 @@
 		E211A8EE1E59C369003803E7 /* TLAssetBuilder+ImageProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8ED1E59C369003803E7 /* TLAssetBuilder+ImageProcessing.m */; };
 		E211A8F11E59C542003803E7 /* TLAssetBuilder+TexturesCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8F01E59C542003803E7 /* TLAssetBuilder+TexturesCreation.m */; };
 		E211A8F41E59C5A7003803E7 /* TLAssetBuilder+TextureAtlasCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8F31E59C5A7003803E7 /* TLAssetBuilder+TextureAtlasCreation.m */; };
+		E211A8F71E59C6C8003803E7 /* TLTexturesAssetBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8F61E59C6C8003803E7 /* TLTexturesAssetBuilder.m */; };
+		E211A8FA1E59C7B5003803E7 /* TLTextureAtlasAssetBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E211A8F91E59C7B5003803E7 /* TLTextureAtlasAssetBuilder.m */; };
+		E211A8FE1E59D765003803E7 /* assetsFolder in Resources */ = {isa = PBXBuildFile; fileRef = E211A8FD1E59D765003803E7 /* assetsFolder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,11 @@
 		E211A8F01E59C542003803E7 /* TLAssetBuilder+TexturesCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TLAssetBuilder+TexturesCreation.m"; sourceTree = "<group>"; };
 		E211A8F21E59C5A7003803E7 /* TLAssetBuilder+TextureAtlasCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TLAssetBuilder+TextureAtlasCreation.h"; sourceTree = "<group>"; };
 		E211A8F31E59C5A7003803E7 /* TLAssetBuilder+TextureAtlasCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TLAssetBuilder+TextureAtlasCreation.m"; sourceTree = "<group>"; };
+		E211A8F51E59C6C8003803E7 /* TLTexturesAssetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTexturesAssetBuilder.h; sourceTree = "<group>"; };
+		E211A8F61E59C6C8003803E7 /* TLTexturesAssetBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTexturesAssetBuilder.m; sourceTree = "<group>"; };
+		E211A8F81E59C7B5003803E7 /* TLTextureAtlasAssetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTextureAtlasAssetBuilder.h; sourceTree = "<group>"; };
+		E211A8F91E59C7B5003803E7 /* TLTextureAtlasAssetBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTextureAtlasAssetBuilder.m; sourceTree = "<group>"; };
+		E211A8FD1E59D765003803E7 /* assetsFolder */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assetsFolder; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,26 +84,15 @@
 		E211A8C01E588CAA003803E7 /* TextureLoader */ = {
 			isa = PBXGroup;
 			children = (
-				E211A8C41E588CAA003803E7 /* AppDelegate.h */,
-				E211A8C51E588CAA003803E7 /* AppDelegate.m */,
 				E211A8DD1E588E7E003803E7 /* TLScene.h */,
 				E211A8DE1E588E7E003803E7 /* TLScene.m */,
 				E211A8E01E588F24003803E7 /* TLLoadDirector.h */,
 				E211A8E11E588F24003803E7 /* TLLoadDirector.m */,
 				E211A8E91E58930C003803E7 /* TLAssetBuilder.h */,
 				E211A8EA1E58930C003803E7 /* TLAssetBuilder.m */,
-				E211A8EC1E59C369003803E7 /* TLAssetBuilder+ImageProcessing.h */,
-				E211A8ED1E59C369003803E7 /* TLAssetBuilder+ImageProcessing.m */,
-				E211A8EF1E59C542003803E7 /* TLAssetBuilder+TexturesCreation.h */,
-				E211A8F01E59C542003803E7 /* TLAssetBuilder+TexturesCreation.m */,
-				E211A8F21E59C5A7003803E7 /* TLAssetBuilder+TextureAtlasCreation.h */,
-				E211A8F31E59C5A7003803E7 /* TLAssetBuilder+TextureAtlasCreation.m */,
-				E211A8CC1E588CAA003803E7 /* GameViewController.h */,
-				E211A8CD1E588CAA003803E7 /* GameViewController.m */,
-				E211A8CF1E588CAA003803E7 /* Main.storyboard */,
-				E211A8D21E588CAA003803E7 /* Assets.xcassets */,
-				E211A8D41E588CAA003803E7 /* LaunchScreen.storyboard */,
-				E211A8D71E588CAA003803E7 /* Info.plist */,
+				E211A8FB1E59C8A0003803E7 /* AssetBuilderTools */,
+				E211A8FC1E59C8C1003803E7 /* SpecificAssetBuilders */,
+				E211A8FD1E59D765003803E7 /* assetsFolder */,
 				E211A8C11E588CAA003803E7 /* Supporting Files */,
 			);
 			path = TextureLoader;
@@ -104,9 +101,41 @@
 		E211A8C11E588CAA003803E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E211A8D21E588CAA003803E7 /* Assets.xcassets */,
+				E211A8D41E588CAA003803E7 /* LaunchScreen.storyboard */,
+				E211A8D71E588CAA003803E7 /* Info.plist */,
+				E211A8CC1E588CAA003803E7 /* GameViewController.h */,
+				E211A8CD1E588CAA003803E7 /* GameViewController.m */,
+				E211A8CF1E588CAA003803E7 /* Main.storyboard */,
+				E211A8C41E588CAA003803E7 /* AppDelegate.h */,
+				E211A8C51E588CAA003803E7 /* AppDelegate.m */,
 				E211A8C21E588CAA003803E7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E211A8FB1E59C8A0003803E7 /* AssetBuilderTools */ = {
+			isa = PBXGroup;
+			children = (
+				E211A8EC1E59C369003803E7 /* TLAssetBuilder+ImageProcessing.h */,
+				E211A8ED1E59C369003803E7 /* TLAssetBuilder+ImageProcessing.m */,
+				E211A8EF1E59C542003803E7 /* TLAssetBuilder+TexturesCreation.h */,
+				E211A8F01E59C542003803E7 /* TLAssetBuilder+TexturesCreation.m */,
+				E211A8F21E59C5A7003803E7 /* TLAssetBuilder+TextureAtlasCreation.h */,
+				E211A8F31E59C5A7003803E7 /* TLAssetBuilder+TextureAtlasCreation.m */,
+			);
+			name = AssetBuilderTools;
+			sourceTree = "<group>";
+		};
+		E211A8FC1E59C8C1003803E7 /* SpecificAssetBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				E211A8F51E59C6C8003803E7 /* TLTexturesAssetBuilder.h */,
+				E211A8F61E59C6C8003803E7 /* TLTexturesAssetBuilder.m */,
+				E211A8F81E59C7B5003803E7 /* TLTextureAtlasAssetBuilder.h */,
+				E211A8F91E59C7B5003803E7 /* TLTextureAtlasAssetBuilder.m */,
+			);
+			name = SpecificAssetBuilders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +199,7 @@
 				E211A8D61E588CAA003803E7 /* LaunchScreen.storyboard in Resources */,
 				E211A8D31E588CAA003803E7 /* Assets.xcassets in Resources */,
 				E211A8D11E588CAA003803E7 /* Main.storyboard in Resources */,
+				E211A8FE1E59D765003803E7 /* assetsFolder in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,11 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E211A8F71E59C6C8003803E7 /* TLTexturesAssetBuilder.m in Sources */,
 				E211A8DF1E588E7E003803E7 /* TLScene.m in Sources */,
 				E211A8F41E59C5A7003803E7 /* TLAssetBuilder+TextureAtlasCreation.m in Sources */,
 				E211A8CE1E588CAA003803E7 /* GameViewController.m in Sources */,
 				E211A8EE1E59C369003803E7 /* TLAssetBuilder+ImageProcessing.m in Sources */,
 				E211A8EB1E58930C003803E7 /* TLAssetBuilder.m in Sources */,
+				E211A8FA1E59C7B5003803E7 /* TLTextureAtlasAssetBuilder.m in Sources */,
 				E211A8C61E588CAA003803E7 /* AppDelegate.m in Sources */,
 				E211A8F11E59C542003803E7 /* TLAssetBuilder+TexturesCreation.m in Sources */,
 				E211A8C31E588CAA003803E7 /* main.m in Sources */,

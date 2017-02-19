@@ -16,7 +16,7 @@
 
 -(CGSize) newImageSizeForImage: (UIImage *) image
               screenScaleRatio: (CGFloat) screenScaleRatio
-               scaleVertically: (BOOL) scaleVertically;
+                            of: (ScaleReference) scaleReference;
 
 -(UIImage *)imageByCropping:(UIImage *)imageToCrop toRect:(CGRect)rect;
 -(UIImage *)imageByResizing:(UIImage *)imageToResize toSize:(CGSize)size;

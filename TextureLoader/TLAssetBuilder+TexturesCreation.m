@@ -13,7 +13,7 @@
 
 -(NSDictionary*) texturesWithNamesFromBundleFolder: (NSString *) bundleFolderPath
                                   screenScaleRatio: (CGFloat) screenScaleRatio
-                                   scaleVertically: (BOOL) scaleVertically{
+                                                of: (ScaleReference) scaleReference{
     
     /* get images from bundle category */
     NSArray *imagesNames = [self fileNamesStoredInBundleDirectory:bundleFolderPath];
@@ -29,7 +29,7 @@
         UIImage *image = [self imageWithPathInsideTheBundle:imagePath];
         
         /* resize */
-        CGSize newSize = [self newImageSizeForImage:image screenScaleRatio:screenScaleRatio scaleVertically:scaleVertically];
+        CGSize newSize = [self newImageSizeForImage:image screenScaleRatio:screenScaleRatio of:scaleReference];
         UIImage *resizedImage = [self imageByResizing:image toSize:newSize];
         
         /* create texture */
